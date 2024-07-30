@@ -94,11 +94,12 @@ def app():
     )
 
     # Using Markdown syntax to control font size and line spacing
-    st.markdown("<h3 style='font-size: 18px; margin-bottom: 1px;'>Subaina Norab - 1374</h3>", unsafe_allow_html=True)
-    st.markdown("<h3 style='font-size: 18px; margin-bottom: 1px;'>Hadia Alvi - 1343</h3>", unsafe_allow_html=True)
-    st.markdown("<h3 style='font-size: 18px; margin-bottom: 1px;'>Shaham Hijab - 1373</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='font-size: 18px; margin-bottom: 1px;'>Name1</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='font-size: 18px; margin-bottom: 1px;'>Name2</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='font-size: 18px; margin-bottom: 1px;'>Name3</h3>", unsafe_allow_html=True)
 
-
+    # Names were for project creators
+    
     col1, col2 = st.columns([1, 1])
 
     with col1:
