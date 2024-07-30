@@ -14,7 +14,7 @@ data=[]
 label=[]
 
 
-data_dir = r'D:\Torture\Labs\4th sem labs\Intro to AI\Projects\Final\Extras\lastTest\Project-1\data' # for data
+data_dir = r'pathToFolder' # path to folder in which data images are stored
 
 
 for dir_ in os.listdir(data_dir):
