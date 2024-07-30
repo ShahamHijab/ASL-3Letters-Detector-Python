@@ -14,7 +14,7 @@ data=[]
 label=[]
 
 
-data_dir = r'pathToFolder' # path to folder in which data images are stored
+data_dir = r'D:\pathToFolder' # path to folder in which data images are stored
 
 
 for dir_ in os.listdir(data_dir):
